@@ -1,0 +1,10 @@
+name: Diplomatik nota
+description: Ev içi krizi fahri ataşelik sıfatıyla bildir
+body:
+  - type: textarea
+    id: olay
+    attributes:
+      label: Olay
+      description: Kısa ve abartılı olsun.
+    validations:
+      required: true
